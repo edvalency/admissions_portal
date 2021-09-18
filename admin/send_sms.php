@@ -4,8 +4,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 function enrolledSms($name){
         // Your Account SID and Auth Token from twilio.com/console
-$account_sid = 'ACdcb7238e7bd4c4956e2e6b6a00339525';
-$auth_token = '167385231c9ef8c562d1003e9d331c43';
+$account_sid = getenv('TWILIO_ACCOUNT_SID');
+$auth_token = getenv('TWILIO_AUTH_TOKEN');
+
 // In production, these should be environment variables. E.g.:
 // $auth_token = $_ENV["TWILIO_AUTH_TOKEN"]
 
@@ -26,8 +27,8 @@ Your letter has been sent to your email.',
 
 function notifySms($name){
     // Your Account SID and Auth Token from twilio.com/console
-$account_sid = 'ACdcb7238e7bd4c4956e2e6b6a00339525';
-$auth_token = '167385231c9ef8c562d1003e9d331c43';
+    $account_sid = getenv('TWILIO_ACCOUNT_SID');
+    $auth_token = getenv('TWILIO_AUTH_TOKEN');
 // In production, these should be environment variables. E.g.:
 // $auth_token = $_ENV["TWILIO_AUTH_TOKEN"]
 
@@ -48,8 +49,8 @@ We will notify you of admission if you are admitted into our institution',
 
 function sendvoucher($contact,$serial,$pin){
     // Your Account SID and Auth Token from twilio.com/console
-$account_sid = 'ACdcb7238e7bd4c4956e2e6b6a00339525';
-$auth_token = '167385231c9ef8c562d1003e9d331c43';
+$account_sid = getenv('TWILIO_ACCOUNT_SID');
+$auth_token = getenv('TWILIO_AUTH_TOKEN');
 // In production, these should be environment variables. E.g.:
 // $auth_token = $_ENV["TWILIO_AUTH_TOKEN"]
 
