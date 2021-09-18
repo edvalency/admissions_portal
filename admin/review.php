@@ -243,12 +243,10 @@ if(isset($admission)){
       </div>
 
       <script>
-        //   document.getElementById('fullname').disabled=false;
         var tog = document.getElementById('vis');
 var details = document.getElementById('details');
 
 details.style.display = "none";
-// tog.style.display = "none";
 
 function tapped(em,fn,pg,ct,dob,gndr){
   tog.style.display = "none";
@@ -270,14 +268,9 @@ function enable(){
 }
 
       </script>
-    
-                <!-- General JS Scripts -->
-                <!-- <script src="view.js"></script> -->
+  <!-- General JS Scripts -->
+                
   <script src="assets/js/app.min.js"></script>
-  <!-- JS Libraies -->
-  <!-- <script src="assets/bundles/apexcharts/apexcharts.min.js"></script> -->
-  <!-- Page Specific JS File -->
-  <!-- <script src="assets/js/page/index.js"></script> -->
   <!-- Template JS File -->
   <script src="assets/js/scripts.js"></script>
   <!-- Custom JS File -->

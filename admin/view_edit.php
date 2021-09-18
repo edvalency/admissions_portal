@@ -18,6 +18,7 @@ echo "<script> window.location='view_edit.php';</script>";
 
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

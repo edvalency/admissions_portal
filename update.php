@@ -3,7 +3,6 @@ session_start();
 require_once 'conn.php';
 $db = new DB();
 
-// $gen = $_SESSION['gender'];
 $prog = $_SESSION['program'];
 
 
@@ -32,7 +31,7 @@ session_abort();
 
 <!DOCTYPE html>
 <html lang="en">
-<!-- auth-register.html  21 Nov 2019 04:05:01 GMT -->
+
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
@@ -162,7 +161,4 @@ session_abort();
   <!-- Custom JS File -->
   <script src="./admin/assets/js/custom.js"></script>
 </body>
-
-
-<!-- auth-register.html  21 Nov 2019 04:05:02 GMT -->
 </html>

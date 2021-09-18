@@ -38,8 +38,6 @@ $_SESSION['gender'] = $detail['gender'];
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- auth-login.html  21 Nov 2019 03:49:32 GMT -->
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
@@ -130,6 +128,4 @@ togglePassword.addEventListener('click', function (e) {
   <script src="./admin/assets/js/custom.js"></script>
 </body>
 
-
-<!-- auth-login.html  21 Nov 2019 03:49:32 GMT -->
 </html>

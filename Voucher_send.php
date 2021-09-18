@@ -27,9 +27,6 @@ echo "<script> window.location='apply.php';</script>";
 
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- auth-login.html  21 Nov 2019 03:49:32 GMT -->
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
@@ -89,7 +86,4 @@ echo "<script> window.location='apply.php';</script>";
   <!-- Custom JS File -->
   <script src="./admin/assets/js/custom.js"></script>
 </body>
-
-
-<!-- auth-login.html  21 Nov 2019 03:49:32 GMT -->
 </html>
